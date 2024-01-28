@@ -1,0 +1,678 @@
+
+body{
+  min-width: 375px;
+}
+************************STORE NAVIGATION************************
+.navigat{
+   margin-top: 2rem;
+}
+.navigation{
+  margin-bottom: 1rem;
+}
+.navigation span{
+    color: #714e35;
+    font-size: .9rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.navigation span a{
+    text-decoration: none;
+    color: #4183c4;
+}
+.catg-titile p{
+    color: #00979d;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+.catg-titile{
+  width: 10%;
+}
+.liststore{
+    margin-bottom: 10rem;
+}
+.store{
+    margin-bottom: 1.4rem;
+    background-color: #f5f5f5;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+.storeimg img{
+    border: 2px solid #fff;
+    padding: .35rem;
+    margin: auto;
+    display: block;
+}
+.storeimg p{
+    margin: auto;
+    display: block;
+    font-size: .8rem;
+    margin-top: .3rem;
+    color: #81a7d8;
+}
+.storeimg p i{
+   margin-right: .3rem;
+}
+@media(max-width:991px){
+  .storeimg p{
+        display: none;
+  }
+}
+.favstor{
+  margin: auto;
+  display: block;
+  font-size: .8rem;
+  margin-top: .3rem;
+  color: #81a7d8;
+}
+.favstor i{
+  margin-right: .3rem;
+}
+@media(min-width:991px) and (max-width:2000px){
+  .favstor{
+    display: none;
+  }
+}
+.storecontent h1{
+    font-size: 2.2rem;
+    color: #000;
+}
+.storecontent .icons{
+    margin-top: 1.4rem;
+}
+.storecontent .icons a{
+   text-decoration: none;
+   padding: .2rem;
+   margin-right: .55rem;
+   background-color: #fff;
+   border: 1px solid #e6e6e6;
+   color: #000;
+   border-radius: 4px;
+}
+.storecontent .icons a i{
+    border-radius: 4px;
+    margin-right: .3rem;
+    font-size: 1.1rem;
+ }
+ .storecontent .icons a #fb{
+    color: #3b5998;
+ }
+ .storecontent .icons a #twit{
+    color: #00acee;
+ }
+ .storecontent .icons a #insta{
+    color: #833AB4;
+ }
+ .storecontent .icons a #print{
+    color: #E60023;
+ }
+ @media(max-width:991px){
+    .store{
+        background-color: #fff;
+    }
+    .storeimg{
+        border: 2px solid #f0efef;
+    }
+    .storeimg p{
+        margin-bottom: .3rem;
+    }
+    .storeimg,.storecontent{
+        display: block;
+        margin: auto;
+    }
+    .storecontent h1{
+        display: block;
+        margin: .5rem auto 0px auto;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .storecontent .icons{
+        margin: .8rem auto 0px auto;
+        justify-content: center;
+    }
+    .storecontent .icons a{
+      font-size: .7rem;  
+  }
+}
+/* *********************************Writing stuff*************************************** */
+
+ .contents{
+    margin-bottom: 1rem;
+ }
+ .contents .row h2{
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 1.9rem;
+ }
+ @media(max-width:700px){
+  .contents .row h2{
+    font-size: 1.4rem;
+  }
+ }
+ .contents .row p{
+   line-height: 1.8rem;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+   color: #222;
+   font-size: .9rem;
+ }
+ .contents .row h3{
+  font-weight: 700;
+  font-size: 1.5rem;
+  }
+ .contents .row h1{
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #000;
+    font-size: 2.2rem;
+  }
+ .contents .row p, h3{
+    text-align: justify;
+ }
+ @media(max-width:700px){
+    .contents .row h2{
+        font-size: 1.6rem;
+     }
+     .contents .row h3{
+        font-size: 1.3rem;
+        font-weight: 900;
+     }
+ }
+ .couponcat{
+    margin-bottom: 2rem;
+ }
+.couponcat .row h3{
+    margin-top: 1rem;
+    font-weight: 600;
+    color: #222;
+    font-size: 1.3rem;
+    letter-spacing: 1.2px;
+}
+.couponcat .row .shadow-sm{
+    color: #666666;
+    padding: .3rem .6rem .3rem .6rem;
+    margin-left: .5rem;
+    border-radius: 3px;
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: .9rem;
+    cursor: pointer;
+    background-color: #f2f2f2;
+
+}
+.couponcat .row span #all{ 
+    background-color: #00979d;
+    color: #fff;
+    font-weight: 700;
+    font-size: .7rem;
+    margin-left: .3rem;
+    padding: .2rem .4rem .2rem .4rem;
+    border-radius: 3px;
+}
+.couponcat .row span #code{ 
+    background-color: #b9dc2f;
+    color: #fff;
+    font-weight: 700;
+    font-size: .7rem;
+    margin-left: .3rem;
+    padding: .2rem .4rem .2rem .4rem;
+    border-radius: 3px;
+}
+.couponcat .row span #deals{ 
+    background-color: #ea4c89;
+    color: #fff;
+    font-weight: 700;
+    font-size: .7rem;
+    margin-left: .3rem;
+    padding: .2rem .4rem .2rem .4rem;
+    border-radius: 3px;
+}
+.couponcat .row span #prints{ 
+    background-color: #344147;
+    color: #fff;
+    font-weight: 700;
+    font-size: .7rem;
+    margin-left: .3rem;
+    padding: .2rem .4rem .2rem .4rem;
+    border-radius: 3px;
+}
+@media(max-width:700px){
+    .couponcat .row .shadow-sm{
+        font-size: .7rem;
+    }
+}
+/* **************************Category********************************** */
+.category{
+    margin-bottom: 2.5rem;
+}
+.category .row .storetype{
+    background-color: #f5f5f5;
+    padding: 1rem 1rem 1rem 1rem;
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.category .row .storetype h4{
+    font-weight: 700;
+    font-size: .9rem;
+    color: #222;
+}
+.category .row .storetype span{    
+    margin-left: .5rem;
+    color: #222;
+}
+.category .row .storetype .radio span{    
+   margin-left: .4rem;
+   margin-right: 1rem;
+   margin-top: .1rem;
+}
+/* *************************************************** */
+.deals{
+    background-color: #f5f5f5; 
+    margin-bottom: 1.2rem;
+}
+.category .deals .row{
+    border-bottom: 1px solid #ede9e9;
+    margin: auto;
+    width: 100%;
+    padding-top: .7rem;
+    padding-bottom: .4rem;
+}
+#count{
+    margin-bottom: 1.5rem;
+}
+.category .deals .row .offer p{
+    margin-top: .4rem;
+    color: #202020;
+    font-size: .95rem;
+}
+.category .deals .row .duo .d-flex .image img{
+    border: 2px solid #fff;
+    width: 100%;
+    height: auto;
+    padding: .3rem;
+    object-fit: contain;
+}
+.category .deals .row .duo .d-flex .content{
+    margin-left: 1rem;
+}
+.category .deals .row .duo .d-flex .content a{
+    text-decoration: none;
+}
+.category .deals .row .duo .d-flex .content a h3{
+    color: #47a0ab;
+    font-weight: 600;
+    font-size: 1.1rem;
+    word-spacing: .1rem;
+    text-align: left;
+  }
+  .category .deals .row .duo .d-flex .content a h3:hover{
+    color: #ff9900;
+  }
+  .category .deals .row .duo .d-flex .content p{
+    color: #000;
+    margin-top: .2rem;
+    font-size: .9rem;
+  }
+#deal, #code{
+    border-radius: 3px;
+    text-transform: uppercases;
+    font-weight: 700;
+    color: #fff;
+    background-color: #ea4c89;
+    border: none;
+    font-size: .85rem;
+    letter-spacing: 1px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 4rem;
+    height: 1.3rem;
+    margin-right: .5rem;
+    margin-top: .1rem;
+}
+#code{
+    background-color: #b9dc2f;
+}
+#noexp{
+    font-weight: 400;
+    color: #afb4b7;
+    margin-left: .4rem;
+    font-size: .8rem;
+}
+.category .deals .submit{
+   outline: none;
+   background-color: #ff9900;
+   color: #fff;
+   border-radius: 5px;
+   border: none;
+   width: 97%;
+   height: 2.6rem;
+   margin: auto;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   text-transform: uppercase;
+   font-weight: 600;
+   font-size: 1rem;
+}
+.category .row .deals button i{
+    margin-left: .5rem;
+}
+#icons{
+    margin-top: 1rem;
+}
+#icons span{
+    border: 1px solid #dedcdc;
+    padding: .2rem;  
+}
+#icons .face .smile{
+    border-left: none;
+    border-right: none;
+}
+#icons .face .sad{
+    border-right: none;
+}
+#icons .face .star{
+    border-right: none;
+    padding-right: .1rem;
+}
+#icons span i{
+    font-size: 1.2rem;
+    color: #ababab;
+}
+#icons .success{
+    font-size: .65rem;
+    border: none;
+    color: #58544a;
+    text-transform: uppercase;
+}
+/* ********************************************************************* */
+@media(max-width:618px){
+    #hide{
+        display: none;
+    }
+}
+#lock{
+    color: #00979d;
+    margin-right: .5rem;
+    font-size: 1.1rem;
+}
+#excl{
+    font-size: .85rem;
+    color: #222;
+    font-weight: 600;
+}
+#msg{
+    color: #000;
+    font-size: .8rem;
+    border-bottom: 1px solid #ede9e9;
+    padding-bottom: .5rem;
+}
+.category .deals .impression{
+    margin-bottom: 1rem;
+}
+.category .deals .impression span{
+    margin-right: 1rem;
+    color: #999999;
+    font-size: .82rem;
+}
+.category .deals .impression span i{
+    margin-right: .3rem;  
+}
+/* **********************POPULAR STORE **********************************/
+/* #popularimg a{
+    margin: auto;
+    width: 45%;
+    text-decoration: none;
+    margin-right: .5rem;
+    margin-bottom: 1rem;
+}
+#popularimg a img {
+    padding: 1.5rem .2rem 1.5rem .2rem;
+    border: 2px solid #fff;
+    object-fit: contain;
+    aspect-ratio: 3/2;
+    width: 100%;
+}
+.storetype{
+    padding-top: .5rem;
+    background-color: #f5f5f5;
+    margin-bottom: 2rem;
+}
+.popular-store h3{
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+@media(max-width:991px){
+  .hide-store{
+    display: none;
+  }
+} */
+.shopbyc{
+  background-color: #f9fbfc;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 3rem;
+}
+.shopbyc h1{
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #07525e;
+  letter-spacing: .7px;
+  font-size: 1.7rem;
+}
+.shopbyc .container .row img{
+  margin:  auto;
+  height: 8rem;
+  width: 8rem; 
+  object-fit: contain;
+  border: 2px solid #efebeb;
+} 
+.shopbyc .container .row .text-center a{
+  text-decoration: none;
+  color: #07525e;
+  font-weight: 700;
+  font-size: .9rem;
+}
+.coupons {
+  margin-bottom: .9rem;
+}
+
+  /* *****************MORE COUPONS*********************** */
+  .morecoupon{
+    margin-bottom: 2.5rem;
+  }
+  .morecoupon .d-flex  h4{
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-right: 1.8rem;
+  }
+  .morecoupon .d-flex  a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #5f8bc9;
+    padding: .4rem;
+  }
+  .morecoupon .d-flex a:hover{
+    color: #ff9900; 
+  }
+  @media(max-width:700px){
+    .morecoupon .d-flex  h4{
+      font-size: 1rem;
+    }
+    .morecoupon .d-flex  a{
+      font-size: 1rem;
+    }
+  }
+  /* *******************************POP********************************* */
+  /* .category .deals .submit{ */
+    .nobtn{
+       border: none;
+       outline: none;
+    }
+  #share{
+    display: none;
+    margin: auto;
+    width: 80%;
+    margin-top: 3.5rem;
+  }
+  #share p{
+    font-size: .95rem;
+    color: #000;
+  }
+  #share input{
+    outline: none;
+    border: 1px solid #d5d2d2;
+    border-radius: 5px;
+    width: 80%;
+    height: 2.4rem;
+    margin-bottom: .5rem;
+    padding-left: 1rem;
+  }
+  #share .fb{
+    text-transform: uppercase;
+    width: 7.2rem;
+    padding: .2rem;
+    height: 2.2rem;
+    outline: none;
+    border: none;
+    background-color: #3b5998;
+    border-radius: 5px;
+    color: #fff;
+    margin: 1rem;
+    font-weight: 600;
+  }
+  #share .twit{
+    text-transform: uppercase;
+    width: 7.2rem;
+    padding: .2rem;
+    height: 2.2rem;
+    outline: none;
+    border: none;
+    background-color: #00acee;
+    border-radius: 5px;
+    color: #fff;
+    margin: 1rem;
+    font-weight: 600;
+  }
+
+  @media(max-width:530px){
+    #share{
+        width: 100%;
+      }
+      #share .fb{
+        width: 5.2rem;
+        font-size: .85rem;
+      }
+      #share .twit{
+        width: 5.2rem;
+        font-size: .85rem;
+      }
+  }
+  /* ******************email**************** */
+  #email{
+    padding: .5rem;
+    display: none;
+    margin: auto;
+    width: 80%;
+    margin-top: 3.5rem;
+  }
+
+  #email .emailbox{
+    margin-bottom: 1.5rem;
+  }
+  #email .emailbox input{
+    outline: none;
+    border: 1px solid #d5d2d2;
+    border-right: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 70%;
+    padding: .5rem;
+    height: 2.5rem;
+  }
+  #email .emailbox button{
+    outline: none;
+    border: 1px solid #d5d2d2;
+    border-left: 0px;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    height: 2.5rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  @media(max-width:500px){
+    #email{
+        width: 100%;
+      }
+    #email p{
+        font-size: .9rem;
+    }  
+  }
+  /* ***********comment********* */
+  #comment{
+    padding: .5rem;
+    display: none;
+    margin: auto;
+    width: 80%;
+    margin-top: 3.5rem;
+  }
+  #comment .commentbox{
+    margin: auto;
+    width: 90%;
+  }
+  #comment form textarea{
+    outline: none;
+    padding: .5rem;
+    border: 1px solid #d5d2d2;
+    margin-bottom: .7rem;
+    background-color: transparent;
+  }
+  #comment form input{
+    outline: none;
+    padding: .3rem;
+    border: 1px solid #d5d2d2;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    width: 82%;
+  }
+  #comment form button{
+    margin: auto;
+    display: flex;
+    width: 25%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    outline: none;
+    border: none;
+    background-color: #00989d;
+    height: 2.4rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: .2rem;
+    border-radius: 5px;
+    font-size: .7rem;
+  }
+  @media(max-width:1130px){
+    #comment form button{
+        width: 45%;
+        font-size: .6rem;
+    }
+  }
+  @media(max-width:470px){
+    #comment form textarea{
+       width: 100%;
+      }
+      #comment form input{
+        width: 100%;
+        font-size: .85rem;
+      }
+      #comment .commentbox p{
+        font-size: .85rem;
+      }
+  }
